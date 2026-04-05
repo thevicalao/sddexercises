@@ -1,0 +1,44 @@
+            .pagination button{
+                padding: 12px 8px;
+            }
+            .pagination a{
+                margin-left: 6px;
+                margin-right: 6px;
+            }
+            .stretch button{
+                background-color: green;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+                transition: padding 0.7s;
+            }
+            .stretch button:hover{
+                padding: 24px 48px;
+            }
+            .shadow button{
+                background-color: green;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+            }
+            .shadow button:hover{
+                box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.3);
+                margin-top: -2px;
+                margin-left: -2px;
+            }
+            .m_and_p button{
+                background-color: green;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+                margin: 0px 12px;
+                transition: padding 0.15s,
+                    margin 0.15s;
+            }
+            .m_and_p button:hover{
+                padding-left: 28px;
+                padding-right: 28px;
+                margin-left: 0px;
+                margin-right: 0px;
+
+            }
