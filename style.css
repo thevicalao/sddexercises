@@ -209,3 +209,84 @@
             .three-part-two{
                 margin-bottom: 8px;
             }
+            .first-grid{
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+            .col1,
+            .three-columns col1,
+            .col3{
+                background-color: lightblue;
+            }
+            .col2,
+            .three-columns col2{
+                background-color: lightpink;
+            }
+            .three-columns{
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+            }
+            .more-columns{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+
+            .fb-suggestion-cards{
+
+            }
+            .fb-suggestion-container{
+
+            }
+            .content-under-image{
+                padding: 8px;
+                margin: 0px;
+            }
+            .suggestion-cards{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+            }
+            .individual-card{
+                background-color: white;
+                box-shadow: 2px 2px 6px rgb(203, 203, 203);
+            }
+            .individual-card button{
+                background-color: rgb(69, 108, 250);
+                color: white;
+                border: none;
+                height: 36px;
+                width: 120px;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+            .fb-imgs{
+                height: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: left;
+            }
+            .mutual-friends-count{
+                display: grid;
+                grid-template-columns: 28px 1fr;
+                margin-bottom: 12px;
+                column-gap: 4px;
+            }
+            .mutual-friends-count img,
+            .mutual-friends-count p{
+                color: grey;
+                margin: 0px;    
+                display: inline-block;
+                align-content: center;          
+            }
+            .mutual-friends-count img{
+                width: 24px;
+                height: 24px;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+            .content-under-image h3{
+                margin: 0px;
+                padding-bottom: 6px;
+            }
